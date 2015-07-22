@@ -1,0 +1,54 @@
+{
+  "name": "vantage-auth-basic",
+  "version": "1.0.0",
+  "description": "Basic Auth extension for vantage.js",
+  "main": "./lib/vantage-auth-basic.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vantagejs/vantage-auth-basic.git"
+  },
+  "keywords": [
+    "api",
+    "cli",
+    "repl",
+    "vantage",
+    "vantagejs",
+    "auth",
+    "authentication",
+    "extension"
+  ],
+  "author": "dthree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vantagejs/vantage-auth-basic/issues"
+  },
+  "homepage": "https://github.com/vantage-js/vantage-auth-basic#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "lodash": "^3.10.0"
+  },
+  "engines": {
+    "node": ">= 0.11.16",
+    "iojs": ">= 1.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": false
+    },
+    "rules": {
+      "no-underscore-dangle": 0,
+      "no-process-exit": 0
+    }
+  }
+}
